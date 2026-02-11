@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@plugin "daisyui";
+
+:where(.dark .dashboard-scope) .bg-white { background-color: rgb(15 23 42) !important; }
+:where(.dark .dashboard-scope) .bg-gray-50 { background-color: rgb(2 6 23) !important; }
+:where(.dark .dashboard-scope) .bg-gray-100 { background-color: rgb(30 41 59) !important; }
+
+:where(.dark .dashboard-scope) {
+  color: white;
+}
+
+
+ :where(.dark .dashboard-scope) .text-gray-900 { color: rgb(241 245 249) !important; }
+:where(.dark .dashboard-scope) .text-gray-800 { color: rgb(226 232 240) !important; }
+:where(.dark .dashboard-scope) .text-gray-700 { color: rgb(203 213 225) !important; }
+:where(.dark .dashboard-scope) .text-gray-600 { color: rgb(148 163 184) !important; }
+:where(.dark .dashboard-scope) .text-gray-500 { color: rgb(148 163 184) !important; }
+
+:where(.dark .dashboard-scope) .text-slate-900 { color: rgb(241 245 249) !important; }
+:where(.dark .dashboard-scope) .text-slate-800 { color: rgb(226 232 240) !important; }
+:where(.dark .dashboard-scope) .text-slate-700 { color: rgb(203 213 225) !important; }
+:where(.dark .dashboard-scope) .text-slate-600 { color: rgb(148 163 184) !important; } 
+
+:where(.dark .dashboard-scope) .border-gray-100 { border-color: rgb(51 65 85) !important; }
+:where(.dark .dashboard-scope) .border-gray-200 { border-color: rgb(51 65 85) !important; }
+:where(.dark .dashboard-scope) .border-gray-300 { border-color: rgb(71 85 105) !important; }
